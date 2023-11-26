@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>    
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://t3.ftcdn.net/jpg/01/22/71/96/360_F_122719641_V0yw2cAOrfxsON3HeWi2Sf4iVxhv27QO.jp'); /* Add your background image URL */
+            background-size: cover; /* Cover the entire page with the background image */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat;
+            backdrop-filter: black;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 1rem;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .contact-info {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info strong {
+            font-weight: bold;
+        }
+
+        /* Social media icons and links */
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            font-size: 1rem;
+            color: rgb(10, 9, 9);
+            text-decoration: none;
+        }
+        .contact {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .contact h2 {
+            color: #333;
+        }
+
+        .contact p {
+            color: #666;
+        }
+
+        .contact form {
+            margin-top: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skill.html">skill</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+           
+            <div class="social-icons">
+               
+                <a href="whatsapp" target="_blank"><i class="fab fa-linkedin">whatsapp</i></a>
+                <br>
+                <br>
+                <a href="instagram" target="_blank"><i class="fab fa-github"></i>instagram</a>
+                <br>
+                <br>
+                <a href="your-link-here" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                <br>
+                <br>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="#"></i>Email</a>
+            </div>
+        </div>
+       
+    </section>
+</body>
+</html>
